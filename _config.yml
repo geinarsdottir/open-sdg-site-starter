@@ -55,7 +55,7 @@ email_contacts:
 repo_name: open-sdg-data-starter
 branch: develop
 # Replace this value as needed.
-org_name: my-github-org
+org_name: geinarsdottir
 
 # Build settings
 markdown: kramdown
