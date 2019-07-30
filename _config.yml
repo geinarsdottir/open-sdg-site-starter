@@ -10,30 +10,30 @@
 # -- replace "open-sdg-data-starter" with "my-awesome-data-repo"
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: SDG Iceland and Social indicators
 # Replace the baseurl with the name of this repository.
 baseurl: "/open-sdg-site-starter"
 url: ""
 data_dir: data
 environment: staging
 # Replace my-github-org and open-sdg-data-starter as needed.
-remotedatabaseurl: "https://my-github-org.github.io/open-sdg-data-starter"
+remotedatabaseurl: "https://github.com/geinarsdottir/open-sdg-site-starter"
 
 jekyll_get_json:
   - data: meta
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/meta/all.json'
+    json: 'https://github.com/geinarsdottir/open-sdg-site-starter/meta/all.json'
   - data: headlines
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/headline/all.json'
+    json: 'https://github.com/geinarsdottir/open-sdg-site-starter/headline/all.json'
   - data: schema
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/meta/schema.json'
+    json: 'https://github.com/geinarsdottir/open-sdg-site-starter/meta/schema.json'
   - data: reporting
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/stats/reporting.json'
+    json: 'https://github.com/geinarsdottir/open-sdg-site-starter/stats/reporting.json'
   - data: translations
-    json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.2.json'
+    json: 'https://github.com/geinarsdottir/sdg-translations/translations-0.5.2.json'
 
 analytics:
   ga_prod: ''
@@ -46,9 +46,9 @@ twitter: 'MyTwitterAccount'
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: gro.einarsdottir@hagstofa.is
+  suggestions: gro.einarsdottir@hagstofa.is
+  functional: gro.einarsdottir@hagstofa.is
 
 # Github Repo for Data
 # Replace this value as needed.
@@ -66,8 +66,8 @@ exclude: [vendor, scripts, remotedata]
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Australia
-  adjective: Australian
+  name: Iceland
+  adjective: Icelandic
 
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
 #frontpage_heading: Australian data for Sustainable Development Goal indicators
